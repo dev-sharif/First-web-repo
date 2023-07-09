@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-container{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    
+
+   
+}
+.l-photo{
+    width: 70px;
+}
+.manus{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 8px;
+    cursor: pointer;
+}
+.item:hover{
+    color:red ;
+
+}
+.b-photo{
+    width: 200px;
+}
+.baner-contener{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border:2px solid gray ;
+    align-items: center;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    color: white;
+
+}
+.titel{
+    font-size: 25px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
