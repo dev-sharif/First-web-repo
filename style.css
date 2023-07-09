@@ -39,11 +39,15 @@
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    border:2px solid gray ;
+    /* border:2px solid gray ; */
     align-items: center;
     background-image: url("./images/background.png"),
     linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
     color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
 }
 .titel{
@@ -60,4 +64,15 @@
     background-color: red;
     border: none;
     border-radius: 5px;
+    color: white;
+}
+.baner-png{
+    width: 200px;
+}
+.about-container{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    flex-direction: row-reverse;
+    
 }
