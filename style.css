@@ -76,3 +76,30 @@
     flex-direction: row-reverse;
     
 }
+.titel-about{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.about-info{
+    padding: 10px;
+    margin: 5px;
+}
+.box{
+    width: 220px;
+    height: 240px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+.box-photo{
+    width: 70px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
